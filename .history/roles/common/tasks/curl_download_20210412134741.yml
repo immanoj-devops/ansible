@@ -20,6 +20,6 @@
     remote_src: yes 
 
 - name: Move Htdocs Directory
-  shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main/* .   &&  mv {{ EXTRACT_DIR }}/{{ APP }}-main/* .
+  shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main/* .   && mv {{ EXTRACT_DIR }}/{{ APP }}-main/* .
   when: APP == "frontend"
 
