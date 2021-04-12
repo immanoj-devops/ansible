@@ -14,11 +14,6 @@
     regexp: '127.0.0.1'
     replace: '0.0.0.0'
 
-- name: Loading Mongo Schema 
-  ansible.builtin.systemd:
-    state: restarted
-    daemon_reload: yes
-    name: mongod
     
 - name: Downloading mongo schema  
   include_role:
