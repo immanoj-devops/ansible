@@ -7,7 +7,7 @@
           name: frontend 
         when: APP == "frontend"
 
-      - name: Run Catalogue
+      - name: Run Frontend
         import_role:
           name: frontend 
         when: APP == "frontend"
