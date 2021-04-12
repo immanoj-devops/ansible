@@ -9,7 +9,7 @@
         tags:
          - frontend 
   
-      - name: Run MongoDB 
+      - name: Run Catalogue
         import_role:
           name: catalogue  
         when: APP == "catalogue"
