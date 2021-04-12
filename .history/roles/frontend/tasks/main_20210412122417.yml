@@ -19,6 +19,6 @@
 
 - name: Unarchive the zip 
   ansible.builtin.unarchive:
-    src: https://github.com/roboshop-devops-project/frontend/archive/main.zip
+    src: https://example.com/example.zip
     dest: /usr/local/bin
     remote_src: yes
