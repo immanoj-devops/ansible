@@ -22,5 +22,5 @@
   
 
 - name: Move component Directory
-  shell: mv {{ EXTRACT_DIR }}/{{ COMPONENT }}-main {{EXTRACT_DIR}}/{{ COMPONENT }}
+  shell: mv {{ EXTRACT_DIR }}/{{ COMPONENT }}-main {{EXTRACT_DIR}}/{{ COMPONENT}}
 
