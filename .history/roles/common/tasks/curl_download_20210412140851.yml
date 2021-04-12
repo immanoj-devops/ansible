@@ -25,4 +25,4 @@
 
 - name: Move HTDOCS Directory 
   shell: mv {{ EXTRACT_DIR }}/frontend/* /usr/share/nginx/html/. 
-  when: APP == "frontend" 
+  when: APP == "frontend"
