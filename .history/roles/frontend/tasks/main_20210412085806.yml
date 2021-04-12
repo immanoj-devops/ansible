@@ -2,11 +2,11 @@
   debug: 
      msg: This is Frontend
 
-- name: frontend1
+- name: frontend 
   debug: 
-     msg: This is Frontend1
+     msg: This is Frontend
 
-- name: frontend2
+- name: frontend 
   debug: 
      msg: This is Frontend
 

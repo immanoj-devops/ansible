@@ -6,7 +6,7 @@
   debug: 
      msg: This is Frontend1
 
-- name: frontend2
+- name: frontend 
   debug: 
      msg: This is Frontend
 
