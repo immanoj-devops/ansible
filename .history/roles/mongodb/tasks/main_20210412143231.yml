@@ -11,5 +11,5 @@
 
 - name: Restart  {{ APP }} service
   ansible.builtin.service:
-    name: mongodb  
+    name: nginx 
     state: restarted
