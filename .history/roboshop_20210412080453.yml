@@ -2,7 +2,7 @@
   hosts: all
   become: yes
   tasks:
-      - name: Run Frontend
+      - name: Run Fronrend
         import_role:
           name: frontend 
         when: APP == "frontend"
