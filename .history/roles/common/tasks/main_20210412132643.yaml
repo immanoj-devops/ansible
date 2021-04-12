@@ -1,2 +1,2 @@
 - name: Disabling auto-shutdown and setting up the hostName
-  ansible.builtin.shell: sudo 
+  ansible.builtin.shell: 
