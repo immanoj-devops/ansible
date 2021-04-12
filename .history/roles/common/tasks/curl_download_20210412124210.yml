@@ -10,7 +10,7 @@
 
 - name: Download and Unarchive the Zip  
   ansible.builtin.unarchive:
-    src: /tmp/mani.zip 
+    src: /tmp/mani.z
     dest: /usr/share/nginx/html
   remote_src: yes
 
