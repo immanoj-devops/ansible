@@ -1,5 +1,5 @@
 - name: Downloading {{ APP }} Component 
   get_url:
     url: "{{ URL }}"
-    dest: /tmp/{{ }}
+    dest: /tmp/{{}}
     mode: '0440'
