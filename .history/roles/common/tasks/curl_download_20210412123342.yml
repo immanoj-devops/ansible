@@ -2,3 +2,4 @@
   get_url:
     url: "{{ URL }}"
     dest: /tmp/{{ APP }}.zip
+    mode: '0440'
