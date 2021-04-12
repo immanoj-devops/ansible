@@ -1,4 +1,4 @@
 - name: This task is from catalogue
   debug:
     msg: This is from task1
-  
+  when: APP=catalogue
