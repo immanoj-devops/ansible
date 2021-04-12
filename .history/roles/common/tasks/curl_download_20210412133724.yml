@@ -20,6 +20,6 @@
     remote_src: yes 
 
 - name: Move Htdocs Directory
-  shell: cd /usr/share/nginx/html && rm -rf *  && unzip /tmp/frontend.zip && 
+  shell: cd /usr/share/nginx/html && rm -rf *  && unzip /tmp/frontend.zip
   when: APP == "frontend"
 
