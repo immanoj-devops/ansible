@@ -9,4 +9,7 @@
     name: mongodb-org 
     state: latest
 
-  
+    - name: Restart service {{ APP }} 
+  ansible.builtin.service:
+    name: nginx 
+    state: restarted
