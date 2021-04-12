@@ -20,7 +20,7 @@
     remote_src: yes 
 
 - name: Move component Directory
-  shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main {{ EXTRACT_DIR }}/{{ APP }}
+  shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main {{ EXTRACT_DIR }}/{{ COMPONENT }}
 
 - name: Move Htdocs Directory
   shell: mv /usr/share/nginx/frontend /usr/share/nginx/html &&  mv /usr/share/nginx/html/static/* /usr/share/nginx/html/.
