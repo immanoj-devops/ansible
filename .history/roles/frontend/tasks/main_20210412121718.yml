@@ -15,4 +15,4 @@
   get_url:
     url: "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
     dest: /tmp/mani.zip 
-    mode: '0770'
+    mode: '0440'
