@@ -28,4 +28,3 @@
     - EXTRACT_DIR: "/tmp"
 
 - name: Loading Mongo Schema 
- 
