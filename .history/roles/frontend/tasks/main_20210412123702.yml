@@ -9,7 +9,6 @@
   include_role:
     name: common
     tasks_from: curl_download 
-  
 
 - name: Restart service httpd, in all cases
   ansible.builtin.service:
