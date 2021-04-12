@@ -1,5 +1,6 @@
 - name: setup the roboshop
   hosts: all
   become: yes
-  tasks:
-  
+  roles:
+    - frontend
+    - catalogue
