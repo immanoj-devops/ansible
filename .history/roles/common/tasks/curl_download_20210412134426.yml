@@ -20,6 +20,6 @@
     remote_src: yes 
 
 - name: Move Htdocs Directory
-  shell: mv 
+  shell: 
   when: APP == "frontend"
 
