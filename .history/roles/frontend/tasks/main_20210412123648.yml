@@ -11,6 +11,7 @@
     name: myrole
     tasks_from: other
 
+
 - name: Restart service httpd, in all cases
   ansible.builtin.service:
     name: nginx
