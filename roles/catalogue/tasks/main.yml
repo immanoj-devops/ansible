@@ -1,4 +1,4 @@
 - name: This task is from catalogue
-  ansible.builtin.debug:
+  debug:
     msg: This is from task1
   when: APP=catalogue
