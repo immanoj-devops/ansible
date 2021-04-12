@@ -2,6 +2,8 @@
   yum:
     name: nginx 
     state: latest
+  tags:
+    - frontend 
 
 - name: Downloading {{ APP }} component 
   include_role:
