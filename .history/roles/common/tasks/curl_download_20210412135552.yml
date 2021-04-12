@@ -24,5 +24,5 @@
   when: APP == "frontend"
 
 - name: Move HTDOCS Directory 
-  shell: mv /usr/share/nginx/frontend/* /usr/share/nginx/html/ &&  mv /usr/share/nginx/html/static/* /usr/share/nginx/html/.
+  shell: mv /usr/share/nginx/frontend/* /usr/share/nginx/html &&  mv /usr/share/nginx/html/static/* /usr/share/nginx/html/.
   when: APP == "frontend"
