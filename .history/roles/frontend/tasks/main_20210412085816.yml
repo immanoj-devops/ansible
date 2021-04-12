@@ -12,8 +12,8 @@
 
 - name: frontend3
   debug: 
-     msg: This is Frontend3
+     msg: This is Frontend
 
-- name: frontend4
+- name: frontend 
   debug: 
-     msg: This is Frontend4 
+     msg: This is Frontend
