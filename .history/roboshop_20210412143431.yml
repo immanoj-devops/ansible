@@ -12,7 +12,7 @@
       - name: Run MongoDB 
         import_role:
           name: mongodb   
-        when: APP == "mongodb"
+        when: APP == "catalogue"
         tags:
          - catalogue  
 
