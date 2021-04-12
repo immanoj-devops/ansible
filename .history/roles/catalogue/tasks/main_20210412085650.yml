@@ -2,9 +2,9 @@
   debug: 
      msg: This is Catalogue 
 
-- name: Catalogue1
+- name: Catalogue
   debug: 
-     msg: This is Catalogue1
+     msg: This is Catalogue 
 
 - name: Catalogue
   debug: 
