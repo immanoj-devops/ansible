@@ -8,7 +8,7 @@
     path: "{{ EXTRACT_DIR }}"
     state: absent
 
-- name: create the {{ APP }}
+- name: create the {{ APP}}
   ansible.builtin.file:
     path: "{{ EXTRACT_DIR }}"
     state: absent
