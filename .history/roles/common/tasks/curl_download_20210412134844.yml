@@ -20,6 +20,6 @@
     remote_src: yes 
 
 - name: Move Htdocs Directory
-  shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main/* .   &&  mv {{ EXTRACT_DIR }}/static/* .   && rm -rf frontend-master README.md && 
+  shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main/* .   &&  mv {{ EXTRACT_DIR }}/static/* .   && rm -rf frontend-master README.md 
   when: APP == "frontend"
 
