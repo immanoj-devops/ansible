@@ -1,3 +1,4 @@
+
 - name: Copy mongoDb repo
   ansible.builtin.copy:
     src: mongodb.repo 
@@ -12,5 +13,4 @@
   ansible.builtin.service:
     name: mongod 
     state: restarted
-
     
