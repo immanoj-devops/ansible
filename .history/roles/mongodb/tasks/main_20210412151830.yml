@@ -20,10 +20,6 @@
   #  daemon_reload: yes
   #  name: mongod
 
-- name: Restart service httpd, in all cases
-  ansible.builtin.service:
-    name: httpd
-    state: restarted
    
 - name: Downloading mongo schema  
   include_role:
