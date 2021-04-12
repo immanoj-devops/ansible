@@ -14,4 +14,4 @@
           name: catalogue  
         when: APP == "catalogue"
         tags:
-         - frocntend 
+         - frontend 
