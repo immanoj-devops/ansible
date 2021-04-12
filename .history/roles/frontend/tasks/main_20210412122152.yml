@@ -16,4 +16,3 @@
     url: "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
     dest: /tmp/main.zip 
     mode: '0777'
-  
