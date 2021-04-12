@@ -5,4 +5,4 @@
       - name: Run Fronrend
         import_role:
           name: frontend 
-        when: APP == fr
+        when: APP 
