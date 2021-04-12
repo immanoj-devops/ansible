@@ -10,7 +10,7 @@
     name: common
     tasks_from: curl_download 
   vars: 
-    - URL=
+    - URL
 
 - name: Restart service httpd, in all cases
   ansible.builtin.service:
