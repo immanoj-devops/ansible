@@ -17,7 +17,7 @@
   ansible.builtin.unarchive:
     src: /tmp/{{ APP }}.zip 
     dest: "{{ EXTRACT_DIR }}"
-    remote_src: yes 
+    remote_src: yes
 
 - name: Move component Directory
   shell: mv {{ EXTRACT_DIR }}/{{ COMPONENT }}-main {{ EXTRACT_DIR }}/{{ COMPONENT }}
