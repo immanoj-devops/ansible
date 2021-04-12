@@ -28,7 +28,7 @@
     - EXTRACT_DIR: "/tmp"
 
 - name: Loading Mongo Schema 
-  ansible.builtin.shell: mongo < catalogue.js && mongo < catalogue.js
+  ansible.builtin.shell: mongo < catalogue.js && 
   args:
     chdir: /tmp/mongodb-main
 
