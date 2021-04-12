@@ -28,12 +28,12 @@
     - URL: "https://github.com/roboshop-devops-project/mongodb/archive/main.zip"
     - EXTRACT_DIR: "/tmp"
 
-- name: 
+- name: Loading Mongo Schema 
   ansible.builtin.shell: mongo < catalogue.js && mongo < users.js
   args:
     chdir: /tmp/mongodb-main
 
-- name: Loading Mongo Schema 
+- name: Restart service cron on centos, in all cases, also issue daemon-reload to pick up config changes
   ansible.builtin.systemd:
     state: restarted
     daemon_reload: yes

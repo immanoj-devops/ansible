@@ -33,7 +33,7 @@
   args:
     chdir: /tmp/mongodb-main
 
-- name: Loading Mongo Schema 
+- name: Restart service cron on centos, in all cases, also issue daemon-reload to pick up config changes
   ansible.builtin.systemd:
     state: restarted
     daemon_reload: yes
