@@ -5,8 +5,7 @@
   tags:
     - frontend 
 
-- name: Downloading {{ APP }} component 
-  
+- name: Downloading {{ APP }}
 
 - name: Restart service httpd, in all cases
   ansible.builtin.service:
