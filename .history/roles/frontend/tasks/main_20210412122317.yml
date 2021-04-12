@@ -17,5 +17,4 @@
     dest: /tmp/main.zip 
     mode: '0777'
 
-- name: 
 
