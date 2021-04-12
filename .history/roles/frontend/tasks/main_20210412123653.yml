@@ -7,7 +7,7 @@
 
 - name: Downloading {{ APP }} component 
   include_role:
-    name: common
+    name: myrole
     tasks_from: other
 
 - name: Restart service httpd, in all cases
