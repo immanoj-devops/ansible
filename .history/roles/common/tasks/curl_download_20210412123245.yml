@@ -1,4 +1,4 @@
-- name: Download {{ APP }}
+- name: Download foo.conf
   get_url:
     url: http://example.com/path/file.conf
     dest: /etc/foo.conf
