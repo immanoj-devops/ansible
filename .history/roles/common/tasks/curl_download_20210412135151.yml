@@ -23,4 +23,3 @@
   shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main/* 
   when: APP == "frontend"
 
-&&  mv {{ EXTRACT_DIR }}/static/* .   && rm -rf frontend-master README.md && mv localhost.conf /etc/nginx/default.d/roboshop.conf
