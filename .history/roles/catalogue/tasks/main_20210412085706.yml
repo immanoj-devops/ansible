@@ -10,7 +10,7 @@
   debug: 
      msg: This is Catalogue3
 
-- name: Catalogue3
+- name: Catalogue2
   debug: 
      msg: This is Catalogue3
 
