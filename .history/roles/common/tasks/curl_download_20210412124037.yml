@@ -4,6 +4,7 @@
     dest: /tmp/{{ APP }}.zip 
 
 - name: remove the old content
+  - name: Recursively remove directory
   ansible.builtin.file:
     path: /etc/foo
     state: absent
