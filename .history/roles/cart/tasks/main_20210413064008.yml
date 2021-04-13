@@ -23,7 +23,7 @@
     - EXTRACT_DIR: "/home/roboshop/cart" 
 
 
-- name: Updating redis in cart config file 
+- name: Updating redis in user config file 
   ansible.builtin.replace:
     path:  /home/roboshop/cart/systemd.service
     regexp: 'REDIS_ENDPOINT'
