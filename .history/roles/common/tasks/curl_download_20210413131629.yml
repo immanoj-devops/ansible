@@ -36,7 +36,8 @@
     group: roboshop 
     state: directory
     recurse: yes
-  when: APP == "frontend"  or APP == "catalogue" or  APP == "user" or  APP == "cart" or  APP == "shipping" or  APP == "payment"
+  when: APP == "frontend"  or APP == "catalogue" or  APP == "user" or  APP == "cart" or  APP == "shipping" or  APP == "shipping"
+
 
 - name: Move HTDOCS Directory 
   shell: mv "{{ EXTRACT_DIR }}"/frontend/* /usr/share/nginx/html/. &&  mv "{{ EXTRACT_DIR }}"/static/*  "{{ EXTRACT_DIR }}"/. && rm -rf "{{ EXTRACT_DIR }}"/frontend-master "{{ EXTRACT_DIR }}"/README.md && mv "{{ EXTRACT_DIR }}"/localhost.conf /etc/nginx/default.d/roboshop.conf
