@@ -57,10 +57,3 @@
         when: APP == "shipping"
         tags:
          - shipping       
-
-      - name: Run Shipping  
-        import_role:
-          name: shipping  
-        when: APP == "shipping"
-        tags:
-         - shipping       
