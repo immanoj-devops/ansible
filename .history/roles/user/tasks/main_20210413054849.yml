@@ -20,4 +20,4 @@
     path: "{{ EXTRACT_DIR }}"
   become_user: roboshop 
   vars: 
-    - EXTRACT_DIR: "/home/roboshop/{{ APP }}" 
+    - EXTRACT_DIR: "/home/roboshop/{{ }}" 
