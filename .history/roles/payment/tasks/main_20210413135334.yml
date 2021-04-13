@@ -22,7 +22,7 @@
 
 - name: Fetching the uid roboshop user 
   shell: id roboshop -u
-  register: RUID
+  register: U
 
 - name: Updating the uid 
   ansible.builtin.lineinfile:
