@@ -31,7 +31,7 @@
   become_user: roboshop 
 
 - name: Setup systemd script
-  shell: mv "{{ EXTRACT_DIR }}/catalogue/systemd.service"/
+  shell: mv "{{ EXTRACT_DIR }}/catalogue/systemd.service"
 
 
 
