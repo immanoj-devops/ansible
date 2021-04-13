@@ -25,7 +25,7 @@
   
 - name: Updating MongoDB Systemd Config  
   ansible.builtin.replace:
-    path:  "{{ EXTRACT_DIR }}"/catalogue/systemd.service 
+    path:  "{{ EXTRACT_DIR }}"/catalogue/system
     regexp: '127.0.0.1'
     replace: '0.0.0.0'
 
