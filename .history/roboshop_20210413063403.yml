@@ -42,4 +42,4 @@
           name: cart  
         when: APP == "cart"
         tags:
-         - cart     
+         - user    
