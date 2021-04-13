@@ -1,5 +1,0 @@
-
-- name: Copy mongoDb repo
-  ansible.builtin.copy:
-    src: /srv/myfiles/foo.conf
-    dest: /etc/foo.conf

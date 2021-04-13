@@ -1,2 +1,0 @@
-- name: Disabl
-  ansible.builtin.shell: somescript.sh >> somelog.txt

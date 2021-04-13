@@ -1,4 +1,0 @@
-
-- name: Installing catalog Redis Packages
-    name: httpd
-    state: latest

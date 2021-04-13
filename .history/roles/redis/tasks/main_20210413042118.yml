@@ -1,8 +1,0 @@
-
-- name: Installing catalog Redis Packages
-  yum:
-    name:
-      - epel-release 
-      - make 
-      - gcc-c++ 
-    state: present

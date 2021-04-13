@@ -1,8 +1,0 @@
-
-- name: Installing catalog Redis Packages
-  yum:
-    name:
-      - nodejs 
-      - make 
-      - gcc-c++ 
-    state: present

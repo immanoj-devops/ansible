@@ -1,5 +1,0 @@
-- name: Downloading {{ APP }} Component 
-  get_url:
-    url: "{{ URL }}"
-    dest: /etc/foo.conf
-    mode: '0440'

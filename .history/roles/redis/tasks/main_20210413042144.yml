@@ -1,8 +1,0 @@
-
-- name: Installing catalog Redis Packages
-  yum:
-    name:
-      - epel-release 
-      - yum-utils
-      - http://rpms.remirepo.net/enterprise/remi-release-7.rpm 
-    state: present

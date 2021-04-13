@@ -1,8 +1,0 @@
-- name: setup the roboshop
-  hosts: all
-  become: yes
-  tasks:
-      - name: Run Frontend
-        import_role:
-          name: frontend 
-        when: APP == "frontend"

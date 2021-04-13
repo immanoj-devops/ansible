@@ -1,3 +1,0 @@
-- name: Catalogue
-   debug: 
-     msg: This is Frontend

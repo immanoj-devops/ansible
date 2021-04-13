@@ -1,5 +1,0 @@
-- name:  
-- name: Copy file with owner and permissions
-  ansible.builtin.copy:
-    src: /srv/myfiles/foo.conf
-    dest: /etc/foo.conf

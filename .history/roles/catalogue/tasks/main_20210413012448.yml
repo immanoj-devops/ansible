@@ -1,8 +1,0 @@
-
-- name: Installing catalog PreReq Packages
-  yum:
-    name:
-      - nodejs 
-      - ake gcc-c++ 
-      - postgresql-server
-    state: present

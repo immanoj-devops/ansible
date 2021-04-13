@@ -1,3 +1,0 @@
-- name: Install the latest version of Nginx
-  debug: 
-     msg: This is Frontend

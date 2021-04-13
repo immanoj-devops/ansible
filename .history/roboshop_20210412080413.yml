@@ -1,8 +1,0 @@
-- name: setup the roboshop
-  hosts: all
-  become: yes
-  tasks:
-    - name: Apply condition to each task in role
-      import_role:
-        name: myrole
-      when: not idontwanttorun

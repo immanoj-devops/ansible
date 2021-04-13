@@ -1,4 +1,0 @@
-- name: Installig Ngnix  
-  debug: 
-     msg: This is Frontend
-

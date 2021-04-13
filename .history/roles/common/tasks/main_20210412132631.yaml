@@ -1,2 +1,0 @@
-- name: Disabling auto-shutdown and 
-  ansible.builtin.shell: somescript.sh >> somelog.txt

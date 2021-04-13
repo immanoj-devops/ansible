@@ -1,7 +1,0 @@
-- name: Install the latest version of Ngnix 
-  yum:
-    name: nginx 
-    state: latest
-  when: APP=="frontend"
-  tags:
-    - frontend 

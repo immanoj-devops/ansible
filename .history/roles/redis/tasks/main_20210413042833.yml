@@ -1,4 +1,0 @@
-
-- name: Installing catalog Redis Packages
-    name: http://rpms.remirepo.net/enterprise/remi-release-7.rpm
-    state: latest
