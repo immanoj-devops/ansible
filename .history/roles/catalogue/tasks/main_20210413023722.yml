@@ -27,7 +27,7 @@
   ansible.builtin.replace:
     path:  "{{ EXTRACT_DIR }}/catalogue/systemd.service"
     regexp: 'MONGO_DNSNAME'
-    replace: 'mongodb-aa.manojtestdmn.tk"
+    replace: 'mongodb-aa.manojtestdmn.tk'
 
 
 
