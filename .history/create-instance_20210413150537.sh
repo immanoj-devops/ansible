@@ -3,6 +3,8 @@
 sudo yum install gettext -y &>/dev/null
 COMPONENT=$1
 
+
+
 if [ "${COMPONENT}" == all ];then
 
    for COMPONENT in frontend mongodb catalgoue redis user cart mysql shipping rabbitmq payment; do
