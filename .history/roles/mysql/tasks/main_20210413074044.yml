@@ -29,7 +29,7 @@
   debug:
      msg: "{{ out }}"
 
-- name: Copy password mysql file
+- name: Copy password mysql
   ansible.builtin.copy:
     src: mysql.repo 
     dest: /etc/yum.repos.d/mysql.repo
