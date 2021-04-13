@@ -33,6 +33,6 @@
       - name: Run User 
         import_role:
           name: user  
-        when: APP == "user"
+        when: APP == "redis"
         tags:
-         - user    
+         - redis   

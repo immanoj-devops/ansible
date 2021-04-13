@@ -35,4 +35,4 @@
           name: user  
         when: APP == "user"
         tags:
-         - user    
+         - redis   
