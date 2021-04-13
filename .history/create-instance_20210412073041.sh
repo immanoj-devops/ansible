@@ -5,7 +5,7 @@ COMPONENT=$1
 
 
 if [ -z "${COMPONENT}" ]; then
-       echo "Need input of the component name or all to create ALL th"
+       echo "Need input of the component name"
        exit 1
 fi
 
