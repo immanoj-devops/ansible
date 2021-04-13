@@ -20,7 +20,7 @@
     path: "{{ EXTRACT_DIR }}"
   become_user: roboshop 
   vars: 
-    - EXTRACT_DIR: "/home/roboshop/cart" 
+    - EXTRACT_DIR: "/home/roboshop/user" 
 
 - name: Updating redis in user config file 
   ansible.builtin.replace:
