@@ -42,7 +42,7 @@
 
 - name: Start Payment 
   ansible.builtin.systemd:
-    name: payment 
+    name: redis 
     state: restarted
     enabled: yes
     daemon_reload: yes
