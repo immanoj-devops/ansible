@@ -26,4 +26,4 @@
   ansible.builtin.replace:
     path:  /home/roboshop/user/systemd.service
     regexp: 'REDIS_ENDPOINT'
-    replace: "{{ APP }}"
+    replace: "{{}}"
