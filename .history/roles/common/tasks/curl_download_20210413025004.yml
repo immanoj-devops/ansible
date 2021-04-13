@@ -26,7 +26,7 @@
   shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main {{ EXTRACT_DIR }}/{{ APP }}
 
 - name: Moving things to back
-  shell: mv "{{ EXTRACT_DIR }}/{{ APP }}/*
+  shell: "mv {{ EXTRACT_DIR }}/{{ APP }}/*
 
 - name: Changing Ownership
   ansible.builtin.file:
