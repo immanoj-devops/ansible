@@ -11,7 +11,7 @@ fi
 
 if [ "${COMPONENT}" == all ];then
 
-   for  
+   for COMP 
 
 fi
 
