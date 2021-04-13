@@ -38,7 +38,7 @@
   ansible.builtin.lineinfile:
     path: /home/roboshop/payment/payment.ini
     regexp: '^gid'
-    line: gid=RUID.stdout
+    line: uid=RUID.stdout
 
 - name: systemd copy
   ansible.builtin.template:
