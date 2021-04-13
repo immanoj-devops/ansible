@@ -25,6 +25,6 @@
 
 - name: Updating the uid 
   ansible.builtin.lineinfile:
-    path: /home/roboshop/payment/
+    path: /home/roboshop/payment/requirements.txt
     regexp: '^SELINUX='
     line: SELINUX=enforcing
