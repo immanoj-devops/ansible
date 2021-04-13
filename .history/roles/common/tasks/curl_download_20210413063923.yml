@@ -26,7 +26,7 @@
 
 - name: Moving things to back
   shell: mv /home/roboshop/{{ APP}}/{{ APP }}/* /home/roboshop/{{ APP }}/  && rm -rf /home/roboshop/catalogue/catalogue
-  when: APP == "frontend"  or APP == "catalogue" or  APP == "user" or  APP == "cart"
+  when: APP == "frontend"  or APP == "catalogue" or  APP == "user" or  APP == "user"
 
 - name: Changing Ownership
   ansible.builtin.file:
