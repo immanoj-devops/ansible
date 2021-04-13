@@ -21,7 +21,7 @@
     executable: pip3
 
 - name: Fetching the uid and gid of roboshop user 
-  shell: ruid=$(id roboshop -u) && GID=$(id roboshop -g)
+  shell: =$(id roboshop -u) && GID=$(id roboshop -g)
 
 - name: Updating the uid 
   ansible.builtin.lineinfile:
