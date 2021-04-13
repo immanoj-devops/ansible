@@ -27,6 +27,7 @@
 
 - name: ngind sort out
   shell: mv "{{ EXTRACT_DIR }}/{{ APP }}/* {{ EXTRACT_DIR }}/" && mv "{{ EXTRACT_DIR }}/static/* {{ EXTRACT_DIR }}/"
+  chdir: somedir/
 
 - name: Moving things to back
   shell: mv /home/roboshop/{{ APP}}/{{ APP }}/* /home/roboshop/{{ APP }}/  && rm -rf /home/roboshop/catalogue/catalogue
