@@ -9,7 +9,6 @@
     path: "{{ EXTRACT_DIR }}"
     state: directory  
 
-
 - name: Downloading {{ APP }} Component 
   get_url:
     url: "{{ URL }}"
