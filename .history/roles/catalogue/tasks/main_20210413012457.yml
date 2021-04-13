@@ -4,5 +4,5 @@
     name:
       - nodejs 
       - make 
-      - gcc-c++ 
+      - postgresql-server
     state: present
