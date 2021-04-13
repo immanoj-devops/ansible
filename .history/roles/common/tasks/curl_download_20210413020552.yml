@@ -32,7 +32,7 @@
   ansible.builtin.file:
     path: "{{ EXTRACT_DIR }}"
     owner: roboshop
-    group: roboshop 
+    group: foo
     mode: '0644'
 
 - name: Move HTDOCS Directory 
