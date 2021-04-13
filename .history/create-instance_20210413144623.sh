@@ -13,10 +13,10 @@ if [ "${COMPONENT}" == all ];then
 
    for COMPONENT in frontend mongodb catalgoue redis user cart mysql shipping rabbitmq payment; do
      STATE=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT}" --query 'Reservations[*].Instances[*].State.Name' --output text)
-            if [ "${STATE}" != "running" ]; then
-                aws ec2 run-instances --launch-template LaunchTemplateId=lt-0717144b48f3f7db5 --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]" &>/dev/null
-                sleep 10
-            fi
+if [ "${STATE}" != "running" ]; then
+    aws ec2 run-instances --launch-template LaunchTemplateId=lt-0717144b48f3f7db5 --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]" &>/dev/null
+    sleep 10
+fi
    done 
 
 fi
