@@ -12,7 +12,6 @@
     - EXTRACT_DIR: "/usr/share/nginx/html"
 
 
-
 - name: Restart service {{ APP }} 
   ansible.builtin.service:
     name: nginx 
