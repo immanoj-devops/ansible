@@ -30,7 +30,7 @@
         tags:
          - redis   
 
-      - name: Run User 
+      - name: Run Redis
         import_role:
           name: redis  
         when: APP == "redis"
