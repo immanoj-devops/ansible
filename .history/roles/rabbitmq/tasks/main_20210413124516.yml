@@ -18,7 +18,7 @@
     enabled: yes
 
 - name: setup rabbitMQ app user 
-  community.rabbitmq.rabbitmq_user:
+ - community.rabbitmq.rabbitmq_user:
     user: joe
     password: changeme
     vhost: /
