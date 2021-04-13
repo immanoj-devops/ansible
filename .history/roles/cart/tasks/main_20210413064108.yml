@@ -38,7 +38,7 @@
 - name: Placing user in etc system 
   shell: cp /home/roboshop/cart/systemd.service /etc/systemd/system/cart.service
 
-- name: Start Cart 
+- name: Start User 
   ansible.builtin.systemd:
     name: user  
     state: restarted
