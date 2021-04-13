@@ -22,7 +22,7 @@
   vars: 
     - EXTRACT_DIR: "/home/roboshop/user" 
 
-- name: Updating User config file 
+- name: Updating MongoDB config file 
   ansible.builtin.replace:
     path:  /etc/mongod.conf
     regexp: '127.0.0.1'
