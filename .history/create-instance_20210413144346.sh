@@ -9,7 +9,7 @@ if [ -z "${COMPONENT}" ]; then
        exit 1
 fi
 
-if [ "${COMPONENT}" == all ];then
+if [ $"{COMPONENT}" == all ];then
 
    for 
 
