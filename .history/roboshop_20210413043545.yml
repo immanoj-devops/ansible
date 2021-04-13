@@ -26,6 +26,6 @@
       - name: Run Redis
         import_role:
           name: catalogue  
-        when: APP == "redis"
+        when: APP == "catalogue"
         tags:
          - catalogue  
