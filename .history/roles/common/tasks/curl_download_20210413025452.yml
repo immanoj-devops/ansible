@@ -26,7 +26,7 @@
   shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main {{ EXTRACT_DIR }}/{{ APP }}
 
 - name: Moving things to back
-  shell: cp -r "{{ EXTRACT_DIR }}/{{ APP }}/*" "{{ EXTRACT_DIR }}/."
+  shell: cp -R "{{ EXTRACT_DIR }}/{{ APP }}/*" "{{ EXTRACT_DIR }}/."
   when: APP == "frontend"  or APP == "catalogue"
 
 
