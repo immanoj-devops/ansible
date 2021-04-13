@@ -26,4 +26,3 @@
   ignore_errors: yes
   register: out
 
-  
