@@ -27,7 +27,7 @@
 
 - name: Print the status
   debug:
-     msg: "{{ out }}"
+     msg: "{{ }}"
 
 - name: Get Default password 
   ansible.builtin.shell: grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}'
