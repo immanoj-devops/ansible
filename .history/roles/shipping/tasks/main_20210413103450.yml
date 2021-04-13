@@ -26,7 +26,7 @@
     replace: "cart-{{ ENV }}.manojtestdmn.tk"
   
 - name: Placing user in etc system 
-  shell: cp /home/roboshop/shipping/systemd.service /etc/systemd/system/cart.service
+  shell: cp /home/roboshop/cart/systemd.service /etc/systemd/system/cart.service
 
 - name: Start Cart 
   ansible.builtin.systemd:
