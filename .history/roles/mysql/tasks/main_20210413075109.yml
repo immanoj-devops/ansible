@@ -45,4 +45,12 @@
       shell: mysql --connect-expired-password -uroot -p"{{PASSWORD.stdout}}" < /tmp/password.sql
     
 - name: Download the schema
+    include_role:
+    name: common
+    tasks_from: curl_download 
+  vars: 
+    - URL: "https://github.com/roboshop-devops-project/cart/archive/main.zip"
+    - EXTRACT_DIR: "/home/roboshop/cart" 
+    - APP_USER: "roboshop"
+
 
