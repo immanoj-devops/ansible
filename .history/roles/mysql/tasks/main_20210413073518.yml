@@ -25,10 +25,6 @@
   ignore_errors: yes
   register: out
 
-- name: Print the password
-  debug:
-     msg: "{{ OUT.stdout_lines }}" 
-
 
 - name: Get Default password 
   ansible.builtin.shell: grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}'
