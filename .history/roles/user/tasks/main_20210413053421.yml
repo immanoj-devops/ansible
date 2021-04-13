@@ -14,4 +14,4 @@
     - URL: "https://github.com/roboshop-devops-project/user/archive/main.zip"
     - EXTRACT_DIR: "/home/roboshop/user" 
     - APP_USER: "roboshop"
-  become_user: "{{ APP_USER }}"
+  become_user: "{{ }}"
