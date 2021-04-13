@@ -22,3 +22,4 @@
 
 - name: Fetching the uid and gid of roboshop user 
   shell: UID=$(id roboshop -u) && GID=$(id roboshop -g)
+  
