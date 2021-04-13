@@ -39,7 +39,7 @@
 
 - name: Start User 
   ansible.builtin.systemd:
-    name: user  
+    name: redis 
     state: restarted
     enabled: yes
     daemon_reload: yes
