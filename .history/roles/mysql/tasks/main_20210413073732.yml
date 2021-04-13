@@ -30,7 +30,7 @@
      msg: "{{ out }}"
 
 - name: Reset Default Password
-  when: out.rc != 0
+  when: out.rc !
 
 - name: Get Default password 
   ansible.builtin.shell: grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}'
