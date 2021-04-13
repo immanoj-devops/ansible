@@ -14,11 +14,7 @@
   vars: 
     - URL: "https://github.com/roboshop-devops-project/catalogue/archive/main.zip"
     - EXTRACT_DIR: "/home/roboshop/catalogue" 
-
-- name: Install "coffee-script" node.js package.
-  community.general.npm:
-    name: coffee-script
-    path: /app/location
+  
 
 
 
