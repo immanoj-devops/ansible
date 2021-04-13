@@ -15,6 +15,7 @@
     - EXTRACT_DIR: "/home/roboshop/user" 
     - APP_USER: "roboshop"
 
+
 - name: Installing nodeJS modules 
   community.general.npm:
     path: "{{ EXTRACT_DIR }}"
