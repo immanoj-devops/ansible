@@ -7,7 +7,7 @@
 - name: create the {{ APP }} dir 
   ansible.builtin.file:
     path: "{{ EXTRACT_DIR }}"
-    state: directory  
+#    state: directory  
 
 
 - name: Downloading {{ APP }} Component 
