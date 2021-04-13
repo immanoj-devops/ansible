@@ -9,7 +9,7 @@
   
 - name: Creating roboshop user
   ansible.builtin.user:
-    name: roboshop
+    name: roboshi
     comment: John Doe
     uid: 1040
     group: admin
