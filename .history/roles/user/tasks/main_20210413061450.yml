@@ -33,5 +33,4 @@
     path:  /home/roboshop/user/systemd.service
     regexp: 'MONGO_ENDPOINT'
     replace: "mongodb-{{ ENV }}.manojtestdmn.tk"
-
-- name: 
+    
