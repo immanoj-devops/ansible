@@ -31,4 +31,4 @@
 
 - name: Print the password
   debug:
-     msg: "{{ OUT.stdout_lines }}"
+     msg: "{{ OUTstdout_lines }}"
