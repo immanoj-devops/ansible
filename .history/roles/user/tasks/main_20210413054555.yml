@@ -1,4 +1,4 @@
-- name: Installing {{ APP )) PreReq Packages
+- name: Installing {{}} APP )) PreReq Packages
   yum:
     name:
       - nodejs 
