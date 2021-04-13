@@ -44,7 +44,7 @@
         tags:
          - cart     
 
-      - name: Run Shipping 
+      - name: Run Cart 
         import_role:
           name: cart  
         when: APP == "cart"
