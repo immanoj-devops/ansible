@@ -3,6 +3,6 @@
   yum:
     name:
       - nodejs 
-      - make gcc-c++ 
+      - ake gcc-c++ 
       - postgresql-server
     state: present
