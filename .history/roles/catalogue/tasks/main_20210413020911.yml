@@ -20,6 +20,7 @@
   community.general.npm:
     path: "{{ EXTRACT_DIR }}"
   become_user: roboshop 
+
   vars: 
     - URL: "https://github.com/roboshop-devops-project/catalogue/archive/main.zip"
     - EXTRACT_DIR: "/home/roboshop/catalogue" 
