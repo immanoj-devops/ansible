@@ -11,10 +11,6 @@
     - URL: "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
     - EXTRACT_DIR: "/usr/share/nginx/html"
 
-- name: systemd copy
-  ansible.builtin.template:
-    src: systemd.service 
-    dest: /etc/systemd/system/payment.service
 
 - name: Restart service {{ APP }} 
   ansible.builtin.service:
