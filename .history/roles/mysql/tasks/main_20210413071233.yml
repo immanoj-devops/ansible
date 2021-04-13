@@ -21,7 +21,7 @@
     daemon_reload: yes
 
 
-- name: Get Mongo Schema 
+- name: Loading Mongo Schema 
   ansible.builtin.shell: mongo < catalogue.js && mongo < users.js
   args:
     chdir: /tmp/mongodb
