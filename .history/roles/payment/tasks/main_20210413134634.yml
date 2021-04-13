@@ -33,7 +33,7 @@
   ansible.builtin.lineinfile:
     path: /home/roboshop/payment/payment.ini
     regexp: '^gid'
-    line: gid={{ rgid }}
+    line: gid={{ GID }}
 
 - name: systemd copy
   ansible.builtin.template:
