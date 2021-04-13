@@ -51,6 +51,7 @@ export COMPONENT
 envsubst < record.json > /tmp/${COMPONENT}.json
 aws route53 change-resource-record-sets --hosted-zone-id Z0389593AKK6AGHKDTF2 --change-batch file:///tmp/${COMPONENT}.json
 
+
 #This is to update the roboshop ansible inventory
 sed -i -e "/${COMPONENT}/ d" ~/inventory
 PUBLICIPADDRESS=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT}" --query 'Reservations[*].Instances[*].PublicIpAddress' --output text)
