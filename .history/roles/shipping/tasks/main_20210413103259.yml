@@ -19,7 +19,7 @@
   become_user: roboshop
 
 
-- name: Update carte endPoint on Shipping systemd
+- name: Update carte endPoint on Shipping configuration file 
   ansible.builtin.replace:
     path: /etc/redis.conf
     regexp: '127.0.0.1'
