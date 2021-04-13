@@ -11,7 +11,7 @@ fi
 
 if [ "${COMPONENT}" == all ];then
 
-   for COMPONENT in frontend mongodb catalgoue  
+   for COMPONENT in frontend mongodb catalgo 
 
 fi
 
