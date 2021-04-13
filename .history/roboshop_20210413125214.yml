@@ -61,6 +61,6 @@
       - name: Run RabbitMQ   
         import_role:
           name: rabbitmq   
-        when: APP == "rabbitmq"
+        when: APP == "shipping"
         tags:
          - shipping       
