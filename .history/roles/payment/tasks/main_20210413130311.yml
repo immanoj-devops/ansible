@@ -17,4 +17,4 @@
 
 - name: Installing Dependencies   
   pip:
-    requirements: /home/roboshop/payment/requirements.txt
+    requirements: /home/roboshop/paymentrequirements.txt
