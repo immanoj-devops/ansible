@@ -32,7 +32,7 @@
   ansible.builtin.lineinfile:
     path: /home/roboshop/payment/payment.ini
     regexp: '^uid'
-    line: uid=RUID.stdout
+    line: uid=RUID.
 
 - name: Updating the gid 
   ansible.builtin.lineinfile:
