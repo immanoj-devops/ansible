@@ -28,6 +28,7 @@
 #  shell: cp -r "{{ EXTRACT_DIR }}/{{ APP }}/*" "{{ EXTRACT_DIR }}/" && rm -rf "{{ EXTRACT_DIR }}/{{ APP }}"
 #  when: APP == "frontend"  or APP == "catalogue"
 
+
 - name: Changing Ownership
   ansible.builtin.file:
     path: "{{ EXTRACT_DIR }}"
