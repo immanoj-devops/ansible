@@ -49,4 +49,4 @@
           name: mysql  
         when: APP == "mysql"
         tags:
-         - mysql      
+         - cart     
