@@ -68,6 +68,6 @@
       - name: Run Payment    
         import_role:
           name: payment    
-        when: APP == "payment"
+        when: APP == "rabbitmq"
         tags:
          - rabbitmq        
