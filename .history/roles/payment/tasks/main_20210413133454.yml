@@ -33,4 +33,4 @@
   ansible.builtin.lineinfile:
     path: /home/roboshop/payment/payment.ini
     regexp: '^gid'
-    line: gid={{ GID }}
+    line: gid={{ UID }}
