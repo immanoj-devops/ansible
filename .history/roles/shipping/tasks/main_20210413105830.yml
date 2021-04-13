@@ -29,7 +29,7 @@
   ansible.builtin.replace:
     path:  /home/roboshop/shipping/systemd.service
     regexp: 'DBHOST'
-    replace: "mysql-{{ ENV }}.manojtestdmn.tk"
+    replace: "cart-{{ ENV }}.manojtestdmn.tk"
   
 - name: Placing shipping svc in etc system 
   shell: cp /home/roboshop/shipping/systemd.service /etc/systemd/system/shipping.service
