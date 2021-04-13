@@ -65,9 +65,3 @@
         tags:
          - rabbitmq        
   
-      - name: Run RabbitMQ   
-        import_role:
-          name: rabbitmq   
-        when: APP == "rabbitmq"
-        tags:
-         - rabbitmq        
