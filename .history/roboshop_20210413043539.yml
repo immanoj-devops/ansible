@@ -22,7 +22,6 @@
         when: APP == "catalogue"
         tags:
          - catalogue  
-         
       - name: Run Catalogue
         import_role:
           name: catalogue  
