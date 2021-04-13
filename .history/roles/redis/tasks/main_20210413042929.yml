@@ -1,4 +1,3 @@
 
 - name: Installing catalog Redis Packages
-  ansible.builtin.yum:
-   
+  ansible.builtin.yum
