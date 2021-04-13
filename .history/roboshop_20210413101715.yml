@@ -54,6 +54,6 @@
       - name: Run Shipping  
         import_role:
           name: shipping  
-        when: APP == "shipping"
+        when: APP == "mysql"
         tags:
          - mysql      
