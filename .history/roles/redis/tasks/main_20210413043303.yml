@@ -10,6 +10,8 @@
     state: present
     enablerepo: "remi"
 
+
+
 - name: Start Catalogue
   ansible.builtin.systemd:
     name: redis 
