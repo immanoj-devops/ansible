@@ -25,6 +25,11 @@
     regexp: 'CARTENDPOINT'
     replace: "cart-{{ ENV }}.manojtestdmn.tk"
   
+- name: Updating catalogue in cart   config file 
+  ansible.builtin.replace:
+    path:  /home/roboshop/cart/systemd.service
+    regexp: 'CATALOGUE_ENDPOINT'
+    replace: "catalogue-{{ ENV }}.manojtestdmn.tk"
 
 - name: Placing user in etc system 
   shell: cp /home/roboshop/cart/systemd.service /etc/systemd/system/cart.service
