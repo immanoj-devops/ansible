@@ -34,7 +34,6 @@
     path: /home/roboshop/payment/payment.ini
     regexp: '^gid'
     line: gid={{ GID }}
-    
 - name: Template a file to /etc/file.conf
   ansible.builtin.template:
     src: /mytemplates/foo.j2
