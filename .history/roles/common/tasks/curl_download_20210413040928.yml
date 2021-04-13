@@ -25,8 +25,8 @@
   shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main {{ EXTRACT_DIR }}/{{ APP }}
 
 - name: Moving things to back
-  shell: cp -r "{{ EXTRACT_DIR }}/{{ APP }}/*" "{{ EXTRACT_DIR }}/" && rm -rf "{{ EXTRACT_DIR }}/{{ APP }}"
-  when: APP == "frontend"  or APP == "catalogue"
+#  shell: cp -r "{{ EXTRACT_DIR }}/{{ APP }}/*" "{{ EXTRACT_DIR }}/" && rm -rf "{{ EXTRACT_DIR }}/{{ APP }}"
+#  when: APP == "frontend"  or APP == "catalogue"
 
 - name: Changing Ownership
   ansible.builtin.file:
