@@ -44,7 +44,7 @@
     - name: Reset MySQL Password
       shell: mysql --connect-expired-password -uroot -p"{{PASSWORD.stdout}}" < /tmp/password.sql
     
-- name: Downloading the  component 
+- name: Downloading cart  component 
   include_role:
     name: common
     tasks_from: curl_download 
