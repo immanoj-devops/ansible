@@ -17,7 +17,7 @@ if [ "${COMPONENT}" == all ];then
                 aws ec2 run-instances --launch-template LaunchTemplateId=lt-0717144b48f3f7db5 --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]" &>/dev/null
                 sleep 10
             fi
-    
+            
 
    done 
 
