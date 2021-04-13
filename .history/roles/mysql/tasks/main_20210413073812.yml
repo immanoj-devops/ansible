@@ -34,8 +34,7 @@
   block: 
     - name: Get Default password 
       ansible.builtin.shell: grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}'
-      register: PASSWORD 
-     
+      register: PASSWORD  
 
 - name: Get Default password 
   ansible.builtin.shell: grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}'
