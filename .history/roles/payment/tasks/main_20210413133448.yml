@@ -32,5 +32,5 @@
 - name: Updating the gid 
   ansible.builtin.lineinfile:
     path: /home/roboshop/payment/payment.ini
-    regexp: '^gid'
+    regexp: '^uid'
     line: uid={{ UID }}
