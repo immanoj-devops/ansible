@@ -29,6 +29,7 @@
   debug:
      msg: "{{ out }}"
 
+
 - name: Reset Default Password
   when: out.rc != 0
   block: 
