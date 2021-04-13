@@ -20,7 +20,7 @@
     src: /tmp/{{ APP }}.zip 
     dest: "{{ EXTRACT_DIR }}"
     remote_src: yes 
-  become_user: ""
+  become_user
 
 - name: Move Components Directory
   shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main {{ EXTRACT_DIR }}/{{ APP }}
