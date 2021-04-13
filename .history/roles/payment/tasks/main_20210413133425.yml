@@ -27,4 +27,4 @@
   ansible.builtin.lineinfile:
     path: /home/roboshop/payment/payment.ini
     regexp: '^uid'
-    line: uid=enforcing
+    line: SELINUX=enforcing
