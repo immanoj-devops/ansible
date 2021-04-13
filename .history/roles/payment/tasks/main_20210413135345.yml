@@ -24,8 +24,8 @@
   shell: id roboshop -u
   register: RUID
 
-- name: Fetching the gid roboshop user 
-  shell: id roboshop -g
+- name: Fetching the uid roboshop user 
+  shell: id roboshop -u
   register: RUID
 
 - name: Updating the uid 

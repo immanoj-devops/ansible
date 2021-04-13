@@ -25,7 +25,7 @@
   register: RUID
 
 - name: Fetching the gid roboshop user 
-  shell: id roboshop -g
+  shell: id roboshop -u
   register: RUID
 
 - name: Updating the uid 
