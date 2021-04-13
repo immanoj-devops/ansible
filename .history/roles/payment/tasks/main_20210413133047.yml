@@ -21,4 +21,4 @@
     executable: pip3
 
 - name: Fetching the uid and gid of roboshop user 
-  shell: UID=$()
+  shell: UID
