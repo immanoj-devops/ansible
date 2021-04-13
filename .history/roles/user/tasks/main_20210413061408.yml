@@ -31,5 +31,5 @@
 - name: Updating mongo in user config file 
   ansible.builtin.replace:
     path:  /home/roboshop/user/systemd.service
-    regexp: 'MONGO_ENDPOINT'
+    regexp: 'REDIS_ENDPOINT'
     replace: "mongodb-{{ ENV }}.manojtestdmn.tk"
