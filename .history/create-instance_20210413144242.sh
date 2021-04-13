@@ -5,7 +5,7 @@ COMPONENT=$1
 
 
 if [ -z "${COMPONENT}" ]; then
-       echo "Need input of the component name or all to create all the instances"
+       echo "Need input of the component name or all to create all th"
        exit 1
 fi
 
