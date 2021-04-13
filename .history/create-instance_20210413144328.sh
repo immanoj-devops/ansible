@@ -9,7 +9,7 @@ if [ -z "${COMPONENT}" ]; then
        exit 1
 fi
 
-if [ ${COMPONENT}];then
+if [ ${COMPO}];then
 
 fi
 
