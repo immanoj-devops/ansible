@@ -29,7 +29,14 @@
   debug:
      msg: "{{ out }}"
 
-
+   - name: Install, configure, and start Apache
+     block:
+       - name: Install httpd and memcached
+         ansible.builtin.yum:
+           name:
+           - httpd
+           - memcached
+           state: present
 
 - name: Get Default password 
   ansible.builtin.shell: grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}'
