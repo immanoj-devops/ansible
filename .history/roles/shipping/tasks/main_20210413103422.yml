@@ -19,7 +19,7 @@
 
   become_user: roboshop
 
-- name: Updating cartEndPoint in Shipping config file 
+- name: Updating cartEndPoint in cart config file 
   ansible.builtin.replace:
     path:  /home/roboshop/cart/systemd.service
     regexp: 'REDIS_ENDPOINT'
