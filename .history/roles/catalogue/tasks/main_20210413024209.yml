@@ -34,8 +34,7 @@
 
 - name: Setup systemd script
   shell: mv "{{ EXTRACT_DIR }}/catalogue/systemd.service" /etc/systemd/system/catalogue.service
-  vars:
-   - EXTRACT_DIR: "/home/roboshop/catalogue" 
+
 
 - name: Start Catalogue
   ansible.builtin.systemd:
