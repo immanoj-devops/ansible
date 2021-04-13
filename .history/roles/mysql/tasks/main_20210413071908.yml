@@ -20,10 +20,9 @@
     enabled: yes
     daemon_reload: yes
 
+
 - name: Check DB has been configured or not
   shell: echo "show databases;" | mysql -uroot -ppassword
   ignore_errors: yes
   register: out
 
-- name: Get Default password 
-  ansible.builtin.shell: grep 

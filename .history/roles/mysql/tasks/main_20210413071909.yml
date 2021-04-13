@@ -25,5 +25,3 @@
   ignore_errors: yes
   register: out
 
-- name: Get Default password 
-  ansible.builtin.shell: grep 
