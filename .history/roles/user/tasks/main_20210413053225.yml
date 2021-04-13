@@ -1,4 +1,4 @@
-- name: Installing ((catalog)) PreReq Packages
+- name: Installing catalog PreReq Packages
   yum:
     name:
       - nodejs 
