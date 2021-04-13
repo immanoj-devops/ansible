@@ -26,7 +26,7 @@
   shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main {{ EXTRACT_DIR }}/{{ APP }}
 
 - name: Changing Ownership
-  shell: chown roboshop:roboshop
+  shell: chown 
 
 
 - name: Move HTDOCS Directory 
