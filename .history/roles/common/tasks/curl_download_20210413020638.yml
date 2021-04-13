@@ -25,6 +25,8 @@
 - name: Move Components Directory
   shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main {{ EXTRACT_DIR }}/{{ APP }}
 
+- name: Changing Ownership
+  shell: chown -R roboshop:roboshop {{ EXTRACT_DIR }}
 
 - name: Changing Ownership
   ansible.builtin.file:
