@@ -35,7 +35,7 @@ if [ "${COMPONENT}" == all ];then
     echo "${PUBLICIPADDRESS}  APP=${COMPONENT}" >> ~/inventory
 
    done 
-   exit 9
+   exit 5
 
 fi
 
