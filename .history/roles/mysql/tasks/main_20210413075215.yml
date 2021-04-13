@@ -50,7 +50,7 @@
     tasks_from: curl_download 
   vars: 
     - URL: "https://github.com/roboshop-devops-project/mysql/archive/main.zip"
-    - EXTRACT_DIR: "/home/roboshop/mysql" 
+    - EXTRACT_DIR: "/home/roboshop/" 
     - APP_USER: "roboshop"
 
 
