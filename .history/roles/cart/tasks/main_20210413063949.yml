@@ -33,7 +33,7 @@
   ansible.builtin.replace:
     path:  /home/roboshop/user/systemd.service
     regexp: 'MONGO_ENDPOINT'
-    replace: "catalogue-{{ ENV }}.manojtestdmn.tk"
+    replace: "mongodb-{{ ENV }}.manojtestdmn.tk"
 
 - name: Placing user in etc system 
   shell: cp /home/roboshop/user/systemd.service /etc/systemd/system/user.service
