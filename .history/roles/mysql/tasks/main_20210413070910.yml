@@ -3,7 +3,7 @@
     src: mysql.repo 
     dest: /etc/yum.repos.d/mysql.repo
 
-- name: Remove mariadb-libs 
+- name: Remove MongoDB 
   yum:
     name: mongodb-org 
     state: latest
