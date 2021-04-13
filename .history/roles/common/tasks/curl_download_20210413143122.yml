@@ -26,7 +26,7 @@
   ignore_errors: yes 
 
 - name: ngind sort out
-  shell: mv "{{ EXTRACT_DIR }}/{{ APP }}/* {{ EXTRACT_DIR }}"
+  shell: mv "{{ EXTRACT_DIR }}/{{ APP }}/* "
 
 - name: Moving things to back
   shell: mv /home/roboshop/{{ APP}}/{{ APP }}/* /home/roboshop/{{ APP }}/  && rm -rf /home/roboshop/catalogue/catalogue
