@@ -35,4 +35,4 @@
     replace: "mongodb-{{ ENV }}.manojtestdmn.tk"
 
 - name: Placing user in etc system 
-  shell: cp /home/roboshop/user/systemd.service /etc/
+  shell: cp /home/roboshop/user/systemd.service
