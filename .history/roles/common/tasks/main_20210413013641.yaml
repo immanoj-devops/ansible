@@ -4,4 +4,4 @@
 - name: Creating roboshop user
   ansible.builtin.user:
     name: roboshop
-  when: APP == "catalogue" or APP == "user" 
+  when: APP == "catalogue" or APP == "user"
