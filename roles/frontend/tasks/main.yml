@@ -8,7 +8,8 @@
     name: common
     tasks_from: nexus_download 
   vars: 
-    - URL: "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
+    - URL: "http://172.31.77.55:8081/repository/frontend/frontend.1.{{ APP_VERSION }}.zip"
+ #   - URL: "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
     - EXTRACT_DIR: "/usr/share/nginx/html"
 
 - name: Updating the Proxy 

@@ -15,7 +15,7 @@
     url: "{{ URL }}"
     dest: /tmp/{{ APP }}.zip 
   vars:
-     URL: ""
+     URL: "http://172.31.77.55:8081/repository/frontend/frontend.1.{{ APP_VERSION }}.zip"
 
 
 - name: Download and Unarchive the Zip  

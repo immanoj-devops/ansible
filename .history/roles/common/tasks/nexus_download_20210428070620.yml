@@ -14,9 +14,6 @@
   get_url:
     url: "{{ URL }}"
     dest: /tmp/{{ APP }}.zip 
-  vars:
-     URL: "http://3.230.162.126:8081/repository/frontend/frontend.1.{{ APP_VERSION }}.zip"
-
 
 - name: Download and Unarchive the Zip  
   ansible.builtin.unarchive:

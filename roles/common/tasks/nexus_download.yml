@@ -10,7 +10,7 @@
     path: "{{ EXTRACT_DIR }}"
     state: directory  
 
-- name: Downloading {{ APP }} Component 
+- name: Downloading THE {{ APP }} Component 
   get_url:
     url: "{{ URL }}"
     dest: /tmp/{{ APP }}.zip 
