@@ -14,8 +14,7 @@
   ansible.builtin.get_url:
     url: "{{ URL }}"
     dest: /tmp/{{ APP }}.zip 
-    url_username:
-    url_password:
+    url_username
   vars:
      URL: "http://172.31.77.55:8081/repository/frontend/frontend.1.{{ APP_VERSION }}.zip"
 
