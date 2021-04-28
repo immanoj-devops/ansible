@@ -45,5 +45,5 @@
 
 # Disable this when Downloading from NEXUS
 - name: Move HTDOCS Directory 
-   shell: mv "{{ EXTRACT_DIR }}/frontend/* /usr/share/nginx/html/." &&  mv "{{ EXTRACT_DIR }}"/static/*  "{{ EXTRACT_DIR }}"/. && rm -rf "{{ EXTRACT_DIR }}"/frontend-master "{{ EXTRACT_DIR }}"/README.md && mv "{{ EXTRACT_DIR }}"/localhost.conf /etc/nginx/default.d/roboshop.conf
-   when: APP == "frontend" 
+#   shell: mv "{{ EXTRACT_DIR }}/frontend/* /usr/share/nginx/html/." &&  mv "{{ EXTRACT_DIR }}"/static/*  "{{ EXTRACT_DIR }}"/. && rm -rf "{{ EXTRACT_DIR }}"/frontend-master "{{ EXTRACT_DIR }}"/README.md && mv "{{ EXTRACT_DIR }}"/localhost.conf /etc/nginx/default.d/roboshop.conf
+#   when: APP == "frontend" 
