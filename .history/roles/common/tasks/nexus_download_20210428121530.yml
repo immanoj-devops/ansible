@@ -13,6 +13,7 @@
 - name: Downloading THE {{ APP }} Component 
   shell: "curl -s -v -f http://172.31.77.55:8081/repository/frontend/frontend.1.{{ APP_VERSION }}.zip -o /tmp/{{ APP }}.zip "
 
+
 - name: Download and Unarchive the Zip  
   ansible.builtin.unarchive:
     src: /tmp/{{ APP }}.zip 
