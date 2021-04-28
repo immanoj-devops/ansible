@@ -11,6 +11,7 @@
     state: directory  
 
 - name: Downloading THE {{ APP }} Component 
+   
   ansible.builtin.get_url:
     url: "{{ URL }}"
     dest: /tmp/{{ APP }}.zip 
