@@ -11,7 +11,7 @@
     state: directory  
 
 - name: Downloading THE {{ APP }} Component 
-  shell: "curl -s -v -f http://172.31.77.55:8081/repository/frontend/frontend.1.{{ APP_VERSION }}.zip"
+  shell: "curl -s -v http://172.31.77.55:8081/repository/frontend/frontend.1.{{ APP_VERSION }}.zip"
   ansible.builtin.get_url:
     url: "{{ URL }}"
     dest: /tmp/{{ APP }}.zip 
