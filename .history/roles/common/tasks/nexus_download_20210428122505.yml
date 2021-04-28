@@ -26,9 +26,9 @@
     dest: "{{ EXTRACT_DIR }}"
     remote_src: yes 
 
-# - name: Move Components Directory
-#   shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main {{ EXTRACT_DIR }}/{{ APP }}
-#   ignore_errors: yes 
+- name: Move Components Directory
+  shell: mv {{ EXTRACT_DIR }}/{{ APP }}-main {{ EXTRACT_DIR }}/{{ APP }}
+  ignore_errors: yes 
 
 - name: Moving things to back
   shell: mv /home/roboshop/{{ APP}}/{{ APP }}/* /home/roboshop/{{ APP }}/  && rm -rf /home/roboshop/catalogue/catalogue
