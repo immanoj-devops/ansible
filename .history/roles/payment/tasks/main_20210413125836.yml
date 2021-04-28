@@ -1,7 +1,0 @@
-- name: Installing Python3
-  yum:
-    name:
-      - nodejs 
-      - make 
-      - gcc-c++ 
-    state: present
