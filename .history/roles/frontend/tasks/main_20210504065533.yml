@@ -17,10 +17,6 @@
     src: roboshop.conf 
     dest: /etc/nginx/default.d/roboshop.conf
 
-- name: Setup the Prometheus Node_exporter 
-  include_role:
-    name: common
-    tasks_from: node_exporter  
 
 - name: Restart service {{ APP }} 
   ansible.builtin.service:
