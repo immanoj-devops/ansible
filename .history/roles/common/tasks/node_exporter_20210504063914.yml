@@ -9,4 +9,3 @@
 
 - name: Download the node exporter 
   wheb: sym.stat.isdir is not defined
-  
