@@ -16,6 +16,6 @@
 
 - name: Rename it to node_exporter 
   when: sym.stat.isdir is not defined
-  shell: mv /opt/node_exporter-1.1.2.darwin-amd64.tar.gz
+  shell: m
 
     
