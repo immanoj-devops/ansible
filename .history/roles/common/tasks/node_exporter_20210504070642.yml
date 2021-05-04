@@ -25,7 +25,4 @@
 
 - name: Start node_exporter service
   systemd:
-     name: node_exporter
-     state: restarted 
-     enabled: yes 
-     deamon-reload: yes 
+     name: node_

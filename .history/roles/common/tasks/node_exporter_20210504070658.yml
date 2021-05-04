@@ -28,4 +28,3 @@
      name: node_exporter
      state: restarted 
      enabled: yes 
-     deamon-reload: yes 

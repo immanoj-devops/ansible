@@ -22,10 +22,4 @@
   copy:
     src: node_exporter.service 
     dest: /opt/systemd/system/node_exporter.service
-
 - name: Start node_exporter service
-  systemd:
-     name: node_exporter
-     state: restarted 
-     enabled: yes 
-     deamon-reload: yes 
