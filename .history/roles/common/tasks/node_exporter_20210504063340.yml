@@ -1,4 +1,0 @@
-- name: Get stats of the FS object
-  ansible.builtin.stat:
-    path: /path/to/something
-  register: sym

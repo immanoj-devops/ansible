@@ -1,4 +1,0 @@
-- name: Get node_exporter directory is there or not
-  ansible.builtin.stat:
-    path: /path/to/something
-  register: sym

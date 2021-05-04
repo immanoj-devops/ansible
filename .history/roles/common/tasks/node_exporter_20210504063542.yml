@@ -1,7 +1,0 @@
-- name: Get node_exporter directory is there or not
-  ansible.builtin.stat:
-    path: /opt/node_exporget
-  register: sym
-
-- name: Grep the node_expirter version  
-  shell: 
