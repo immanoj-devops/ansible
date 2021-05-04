@@ -27,4 +27,4 @@
 - name: Setup the Prometheus Node_exporter 
   include_role:
     name: common
-    tasks_from: node_exporter  
+      tasks_from: node_exporter  
