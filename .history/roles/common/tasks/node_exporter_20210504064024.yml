@@ -10,4 +10,4 @@
 - name: Download the node exporter 
   when: sym.stat.isdir is not defined
   unarchive: 
-     src: "https://github.com/prometheus/node_exporter/releases/download/v1.1.2/node_exporter-1.1.2.darwin-amd64.tar.gz"
+     src: "https://github.com/prometheus/node_exporter/releases/download/v1.1.2/node_exporter-1.1.2.darwin-amd64.tar.gz
