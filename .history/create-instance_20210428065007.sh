@@ -5,7 +5,7 @@ COMPONENT=$1
 
 if [ "${COMPONENT}" == all ];then
 
-   for COMPONENT in frontend mongodb cataloue redis user cart mysql shipping rabbitmq payment; do
+   for COMPONENT in frontend mongodb catalgoue redis user cart mysql shipping rabbitmq payment; do
     echo "Creating ${COMPONENT} Server"
      STATE=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT}" --query 'Reservations[*].Instances[*].State.Name' --output text)
             if [ "${STATE}" != "running" ]; then
