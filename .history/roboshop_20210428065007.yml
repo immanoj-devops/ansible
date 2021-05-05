@@ -2,6 +2,13 @@
   hosts: all
   become: yes
   tasks:
+      - name: Run Frontend
+        import_role:
+          name: frontend 
+        when: APP == "frontend"
+        tags:
+         - frontend 
+  
       - name: Run MongoDB 
         import_role:
           name: mongodb   
