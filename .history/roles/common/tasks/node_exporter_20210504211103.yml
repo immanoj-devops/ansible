@@ -52,7 +52,7 @@
 #   shell: mv /opt/node_exporter-{{ VERSION.stdout }}.darwin-amd64 /opt/node_exporter 
 
 - name: set up node_exporter service  
-  when: sym.stat.isdir is not defined
+  
   shell: curl -s https://gitlab.com/thecloudcareers/opensource/-/raw/master/prom-node-exporter-install.sh | bash
 
 # - name: Start node_exporter service
