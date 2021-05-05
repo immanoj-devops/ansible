@@ -1,5 +1,5 @@
 - name: Disabling auto-shutdown and setting up the hostName
-  ansible.builtin.shell: sudo set-hostname  && sudo disable-auto-shutdown
+  ansible.builtin.shell: sudo set-hostname {{ APP }} && sudo disable-auto-shutdown
 
 - name: Creating roboshop user
   ansible.builtin.user:
