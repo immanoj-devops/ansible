@@ -70,8 +70,7 @@
           name: payment    
         when: APP == "payment"
         tags:
-         - payment     
-             
+         - payment         
       - name: Run Frontend
         import_role:
           name: frontend 
