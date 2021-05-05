@@ -2,7 +2,6 @@
   hosts: all
   become: yes
   tasks:
-  
       - name: Run MongoDB 
         import_role:
           name: mongodb   
@@ -65,3 +64,5 @@
         when: APP == "payment"
         tags:
          - payment         
+  
+  
