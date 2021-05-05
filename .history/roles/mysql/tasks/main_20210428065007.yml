@@ -56,7 +56,3 @@
 - name: Load Schema
   shell: mysql -uroot -ppassword < /tmp/mysql/mysql/shipping.sql
 
-- name: Setup the Prometheus Node_exporter 
-  include_role:
-    name: common
-    tasks_from: node_exporter 
