@@ -20,7 +20,7 @@
 - name: Updating the Nginx Log Format with response time 
   ansible.builtin.template:
     src: nginx.conf 
-    dest: /etc/nginx/nginx.conf
+    dest: /etc/nginx/default.d/roboshop.conf
 
 - name: Setup the Prometheus Node_exporter 
   include_role:
