@@ -38,7 +38,3 @@
   include_role:
     name: common
     tasks_from: node_exporter 
-
-- name: Setup Filebeat
-  include_role:
-    name: filebeat
