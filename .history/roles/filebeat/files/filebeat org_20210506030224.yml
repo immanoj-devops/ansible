@@ -16,6 +16,8 @@ filebeat.inputs:
 filebeat.config.modules:
   # Glob pattern for configuration loading
   path: ${path.config}/modules.d/*.yml
+
+  # Set to true to enable config reloading
   reload.enabled: false
 
 setup.template.settings:
