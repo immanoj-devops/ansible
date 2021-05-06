@@ -1,6 +1,6 @@
 - name: Install Filebeat
   yum:
-    name: https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.12.1-x86_64.rpm
+    name: https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.12.2-x86_64.rpm
     state: installed
 
 - name: Copy Filebeat Configuration
