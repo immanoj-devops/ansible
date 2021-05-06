@@ -24,8 +24,6 @@ filebeat.inputs:
     enabled: true
     paths:
       - /var/log/{{APP}}.log
-    json.keys_under_root: true
-    json.message_key: msg
     fields:
       log_type: {{APP}}
     include_lines: ['^\[[0-9][0-9][0-9][0-9]']
