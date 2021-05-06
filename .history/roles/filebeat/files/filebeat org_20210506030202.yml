@@ -2,6 +2,8 @@
 filebeat.inputs:
   - type: log
     enabled: false
+
+    # Paths that should be crawled and fetched. Glob based paths.
     paths:
       - /var/log/*.log
       #- c:\programdata\elasticsearch\logs\*
