@@ -5,6 +5,4 @@
   ansible.builtin.user:
     name: roboshop
 
-- name: Updating the RSYSLOG 
-  copy: 
-    
+- name: Updating the s
