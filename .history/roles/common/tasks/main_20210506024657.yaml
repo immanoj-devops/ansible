@@ -7,5 +7,5 @@
 
 - name: Updating the RSYSLOG 
   copy: 
-    src: sy
+    src: 
     dest:
