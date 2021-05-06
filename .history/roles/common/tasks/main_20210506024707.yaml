@@ -8,4 +8,4 @@
 - name: Updating the RSYSLOG 
   copy: 
     src: rsyslog.conf
-    dest: /etc/rsyslog/robosh
+    dest: /etc/rsyslog
