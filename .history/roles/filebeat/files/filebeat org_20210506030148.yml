@@ -1,4 +1,5 @@
 
+
 filebeat.inputs:
 
   # Each - is an input. Most options can be set at the input level, so
