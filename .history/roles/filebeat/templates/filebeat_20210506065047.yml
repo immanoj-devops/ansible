@@ -6,6 +6,7 @@ filebeat.inputs:
       - /var/log/{{APP}}.log
     json.keys_under_root: true
     json.message_key: msg
+
 {% elif APP == 'frontend' %}
   - type: log
     enabled: true
